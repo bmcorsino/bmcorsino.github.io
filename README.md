@@ -5,7 +5,7 @@ Azure B2B PowerShell Tips and Tricks
 
 How to change the invitation language
  
-================
+
  ```
 $messageInfo = New-Object Microsoft.Open.MSGraph.Model.InvitedUserMessageInfo
 $messageInfo.customizedMessageBody = “Hey there! Check this out. I created an invitation through PowerShell”
@@ -13,7 +13,7 @@ $messageinfo.MessageLanguage = "it"
 New-AzureADMSInvitation -InvitedUserEmailAddress user@contoso.com -InvitedUserDisplayName "UserName" -InviteRedirectUrl https://myapps.microsoft.com -InvitedUserMessageInfo $messageInfo -SendInvitationMessage $true 
 ```
 
-================
+
  
 To change the language, we need to define it:
  
