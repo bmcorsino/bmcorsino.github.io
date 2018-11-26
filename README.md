@@ -7,6 +7,8 @@ How to change the invitation language
  
 
  ```PowerShell
+ 
+ How to change the invitation language
 $messageInfo = New-Object Microsoft.Open.MSGraph.Model.InvitedUserMessageInfo
 $messageInfo.customizedMessageBody = “Hey there! Check this out. I created an invitation through PowerShell”
 $messageinfo.MessageLanguage = "it"
