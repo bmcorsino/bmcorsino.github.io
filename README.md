@@ -13,7 +13,6 @@ $messageInfo.customizedMessageBody = “Hey there! Check this out. I created an 
 $messageinfo.MessageLanguage = "it"
 New-AzureADMSInvitation -InvitedUserEmailAddress user@contoso.com -InvitedUserDisplayName "UserName" -InviteRedirectUrl https://myapps.microsoft.com -InvitedUserMessageInfo $messageInfo -SendInvitationMessage $true 
 
-```
 
 
  
