@@ -6,7 +6,7 @@ Azure B2B PowerShell Tips and Tricks
 How to change the invitation language
  
 
- ```
+
  
 $messageInfo = New-Object Microsoft.Open.MSGraph.Model.InvitedUserMessageInfo
 $messageInfo.customizedMessageBody = “Hey there! Check this out. I created an invitation through PowerShell”
