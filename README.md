@@ -3,7 +3,7 @@
 
 Azure B2B PowerShell Tips and Tricks
 
-```ruby
+```powershell
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
