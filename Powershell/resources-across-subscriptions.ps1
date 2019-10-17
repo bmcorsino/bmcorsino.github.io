@@ -1,5 +1,5 @@
 #Change the variable 'VMName'.
-# The script will search the resource across the subscriptions in your tenant
+# The script will search Virtual Machines across all subscriptions in your tenant
 
 $name = "VMName"      
         If ($name){
