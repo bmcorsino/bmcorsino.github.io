@@ -10,7 +10,7 @@
 
 
 **_Nota_**: é necessário alterar os parametros em baixo, consoante o ambiente.
-````Ps
+````Powershell
 $AutomationAccount = "automation-account"
 $ResourceGroup = "automation-rg"
 $ScheduleName = "schedule"
@@ -18,7 +18,7 @@ $ConnectionName = "AzureRunAsConnection"
 ````
 
 **_Script Completo:_**
-````Ps
+````Powershell
 $AutomationAccount = "automation-account"
 $ResourceGroup = "automation-rg"
 $ScheduleName = "schedule"
