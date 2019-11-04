@@ -1,4 +1,6 @@
-theme: jekyll-theme-architect
+theme: neo-hpstr-jekyll-theme
+gems: [jekyll-paginate]
+
 collections:
   authors:
     output: true
