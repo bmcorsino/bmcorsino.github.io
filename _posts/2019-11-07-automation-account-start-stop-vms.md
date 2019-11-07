@@ -15,7 +15,6 @@ You need to configure 3 Tags in Virtual Machines :
     - If the flag is `off` the rule will not apply Meaning that the virtual machine will not Start or Stop.
 
 
-
 **_Note_**: You need to change the variables below:
 
 {% highlight PowerShell %}
