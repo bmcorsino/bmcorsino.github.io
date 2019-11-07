@@ -15,9 +15,8 @@ You need to configure 3 Tags in Virtual Machines :
     - If the flag is `off` the rule will not apply. Meaning that the virtual machine will not Start or Stop.
 
 
-<figure class="half">
+<figure>
 	<img src="/images/2019/11/start-stop-tags.png" alt="Azure Tags">
-
 </figure>
 
 
