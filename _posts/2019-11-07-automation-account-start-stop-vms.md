@@ -14,12 +14,12 @@ You need to configure 3 Tags in Virtual Machines :
     - If the flag is `on`  Will turn on/off 
     - If the flag is `off` the rule will not apply. Meaning that the virtual machine will not Start or Stop.
 
-{% highlight html %}
+
 <figure class="half">
 	<img src="/images/2019/11/start-stop-tags.png" alt="Azure Tags">
 
 </figure>
-{% endhighlight %}
+
 
 
 
