@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automation Account to Start/Stop Virtual Machines
+title: Start/Stop Virtual Machines at the same time
 description: "Automation Account to Start/Stop Virtual Machines"
 modified: 2019-11-07
 tags: [PowerShell, Automation, Virtual Machines]
@@ -8,13 +8,29 @@ categories: [PowerShell]
 
 ---
 
+ Todas as máquinas para fazerem start e stop devem conter 3 flags:
+  - `startup` - indicar a hora de startup. Ex: 09:00
+  - `shutdown`  - indicar a hora de shutdown. Ex: 18:00
+  - `StartStopRule` - on / off
+    - Se a flag estiver `on` a máquina irá ligar e desligar consoante o horario aplicado.
+    - Se a flag  estiver `off` quer dizer que o script nao se aplica à máquina.
 
+
+
+**_Nota_**: é necessário alterar os parametros em baixo, consoante o ambiente.
+
+{% highlight PowerShell %}
+$AutomationAccount = "AutomationName"
+$ResourceGroup = "ResourceGroup"
+$ScheduleName = "schedule-Name"
+$ConnectionName = "AzureRunAsConnection"
+{% endhighlight %}
 
 {% highlight PowerShell %}
 
-$AutomationAccount = "automation-account-tech-qua"
-$ResourceGroup = "tech-automation-qua-ne-rg"
-$ScheduleName = "schedule"
+$AutomationAccount = "AutomationName"
+$ResourceGroup = "ResourceGroup"
+$ScheduleName = "schedule-Name"
 $ConnectionName = "AzureRunAsConnection"
 
 if ((get-date).DayOfWeek.value__ -in 1..5){
