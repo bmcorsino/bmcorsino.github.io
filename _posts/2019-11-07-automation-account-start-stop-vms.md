@@ -12,7 +12,7 @@ This script will allow you to use an Automation Account to Start and Stop all Vi
 Pre-Requisits:
  - [Owner Priviledges under the Subscription(s)](#check-your-permisions-under-the-subscription)
  - [Automation Account](#create-an-automation-account)
- - [Configure Virtual Machines Tags](#check-your-permisions-under-the-subscription)
+ - [Configure Virtual Machines Tags](#add-tags-to-virtual-machine)
  - [Add PowerShell script](#powershell-script)
  - [Create a schedule](#create-a-schedule)
 
@@ -21,22 +21,21 @@ Pre-Requisits:
 
 To be able to create an Automation Account you need the Owner RBAC role under the subscription.
 
+![img](/images/2019/11/subscription.png)
 
 ### Create an Automation Account
 
 If you don't already have an automation account, you need to create one.
 
-<figure>
-	<img src="/images/2019/11/automation.png" alt="Azure Automation">
-</figure>
+![img](/images/2019/11/automation.png) 
+
 
 ### Add Tags to Virtual Machine
 
 You need to configure 3 Tags in Virtual Machines :
 
-<figure>
-	<img src="/images/2019/11/start-stop-tags.png" alt="Azure Tags">
-</figure>
+
+![img](/images/2019/11/start-stop-tags.png) 
 
 
   - `startup : 09:00` 
@@ -48,6 +47,7 @@ You need to configure 3 Tags in Virtual Machines :
 
 ## PowerShell Script
 
+Create a Runbook with the PowerShell script below.
 
 **_Note_**: You need to change the variables below:
 
@@ -121,3 +121,6 @@ if ((get-date).DayOfWeek.value__ -in 1..5){
 
 The last step is to create a Schedule for your Automation Account.
 
+![img](/images/2019/11/schedule.png)
+
+Don't forget to attach the schedule to your Automation Account.
