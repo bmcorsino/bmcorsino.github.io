@@ -6,12 +6,16 @@ disqus_shortname:
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
-icon:             images/logo.icon
 excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
 url: https://bmcorsino.github.io 
+
+
+favicon:
+  source: favicon.png
+  path: /images/
 
 # draw your top menu here
 # each item must have a title and a url.
