@@ -123,4 +123,4 @@ The last step is to create a Schedule for your Automation Account.
 
 ![img](/images/2019/11/schedule.png)
 
-Don't forget to attach the schedule to your Automation Account.
+Don't forget to attach it to your Automation Account.
