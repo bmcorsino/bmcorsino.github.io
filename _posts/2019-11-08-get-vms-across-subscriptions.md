@@ -2,7 +2,7 @@
 layout: post
 title: Get Virtual Machines Across Subscriptions
 description: "How to Get Virtual MAchines across subscriptions"
-modified: 2019-11-087
+modified: 2019-11-08
 tags: [PowerShell, Subscriptions, Virtual Machines]
 categories: [PowerShell, Virtual Machines]
 
