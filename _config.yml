@@ -13,10 +13,6 @@ excerpt_separator: <!--more-->
 url: https://bmcorsino.github.io 
 
 
-favicon:
-  source: favicon.png
-  path: /images/
-
 # draw your top menu here
 # each item must have a title and a url.
 #   To list post categories. use type: 'categories'
@@ -30,13 +26,13 @@ menu:
   - title: 'Categories'
     url: '/categories'
     type: 'categories'
-  - title: 'Favorites'
-    url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+  #- title: 'Favorites'
+   # url: '#'
+    #submenu:
+     # - title: 'Code Highlighter'
+      #  url: '/intro/code-highlighting-post/'
+      #- title: 'Sample Post'
+      #  url: '/intro/sample-post/'
 
 # Owner/author information
 owner:
@@ -58,10 +54,8 @@ twitter:
 social:
   - title: "github"
     url: "https://github.com/bmcorsino"
-  - title: "linkedin"
-    url: ""
-  - title: "youtube"
-    url: ""
+
+
 
 # Background image to be tiled on all pages
 background:
