@@ -7,6 +7,31 @@ tags: [PowerShell, Automation, Virtual Machines]
 categories: [PowerShell]
 
 ---
+This script will allow you to use an Automation Account to Start and Stop all Virtual Machines selected at the same time.
+
+Pre-Requisits:
+ - [Owner Priviledges under the Subscription(s)](#check-your-permisions-under-the-subscription)
+ - [Automation Account](#create-an-automation-account)
+ - [Configure Virtual Machines Tags](#check-your-permisions-under-the-subscription)
+ - [Add PowerShell script](#powershell-script)
+ - [Create a schedule](#create-a-schedule)
+
+
+### Check your permisions under the Subscription
+
+To be able to create an Automation Account you need the Owner RBAC role under the subscription.
+
+
+### Create an Automation Account
+
+If you don't already have an automation account, you need to create one.
+
+<figure>
+	<img src="/images/2019/11/automation.png" alt="Azure Automation">
+</figure>
+
+### Add Tags to Virtual Machine
+
 You need to configure 3 Tags in Virtual Machines :
 
 <figure>
@@ -14,12 +39,14 @@ You need to configure 3 Tags in Virtual Machines :
 </figure>
 
 
-  - `startup` - startup hour. Ex: 09:00
-  - `shutdown`  - shutdown hour. Ex: 18:00
+  - `startup : 09:00` 
+  - `shutdown : 19:00`  
   - `StartStopRule` - `on` / `off`
     - If the flag is `on`  Will turn on/off 
     - If the flag is `off` the rule will not apply. Meaning that the virtual machine will not Start or Stop.
 
+
+## PowerShell Script
 
 
 **_Note_**: You need to change the variables below:
@@ -89,4 +116,8 @@ if ((get-date).DayOfWeek.value__ -in 1..5){
 
 {% endhighlight %}
 
+
+### Create a Schedule
+
+The last step is to create a Schedule for your Automation Account.
 
