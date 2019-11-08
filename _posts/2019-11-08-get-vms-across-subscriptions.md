@@ -15,15 +15,15 @@ How to use it:
 
 Command to return a specific Virtual Machine
 
-``` Powershell
+{% highlight PowerShell %}
 Get-MyVM -Name <VMName>
-```
+{% endhighlight %}
 
 Command to return all Virtual Machines
 
-``` Powershell
+{% highlight PowerShell %}
 Get-MyVM
-```
+{% endhighlight %}
 
 {% highlight PowerShell %}
 function Get-MyVm {
