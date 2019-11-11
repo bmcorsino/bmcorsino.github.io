@@ -61,7 +61,7 @@ career-img: "/img/career/computer.png"
 
 # Career variables
 
-events:
+timeline:
 
   - image: "/img/career/finch.png"
     date: "February 2017 - July 2017"
