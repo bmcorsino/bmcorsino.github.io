@@ -13,8 +13,8 @@ This PowerShell Script will do a snapshot for SO and Data disks.
 
 PowerShell Command:
 {% highlight PowerShell %}
-New-NBVmSnapshotAll -VM [string] -ResourceGroup [string] -ResourceGroupSnapShot [string] -Subscription [string]
-New-NBVmSnapshotAll -VM 'VM-Name' -ResourceGroup 'RG-Name' -ResourceGroupSnapShot 'Snapshot-RG-Name' -Subscription 'SubscriptionName'
+New-SnapshotAll -VM [string] -ResourceGroup [string] -ResourceGroupSnapShot [string] -Subscription [string]
+New-SnapshotAll -VM 'VM-Name' -ResourceGroup 'RG-Name' -ResourceGroupSnapShot 'Snapshot-RG-Name' -Subscription 'SubscriptionName'
 {% endhighlight %}
 
 {% highlight PowerShell %}

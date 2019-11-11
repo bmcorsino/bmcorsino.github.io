@@ -56,6 +56,34 @@ social:
     url: "https://github.com/bmcorsino"
 
 
+# Career variables
+
+events:
+
+  - image: "/img/career/finch.png"
+    date: "February 2017 - July 2017"
+    description: "Data Scientist at Finch. Working with Deep Learning and NLP"
+  - image: "/img/career/gsoc_2016.jpg"
+    date: "March 2016 - August 2016"
+    description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Scrapy Streaming project"
+  - image: "/img/career/saci.jpg"
+    date: "February 2016 - November 2017"
+    description: "I'm the coordinator of Saci Lab Unesp (Adaptive Systems and Computational Intelligence Laboratory), a lab about Artificial Intelligence and its applications."
+  - image: "/img/career/gsoc_2015.jpg"
+    date: "March 2015 - August 2015"
+    description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Kivy Designer"
+  - image: "/img/career/finch.png"
+    date: "April 2015 - October 2015"
+    description: "R&D at Finch Soluções, working with NLP and Java."
+  - image: "/img/career/unesp.jpg"
+    date: "April 2015 - Until now"
+    description: "Bachelor of Computer Science at São Paulo State University :)"
+  - image: "/img/career/triata.jpg"
+    date: "September 2013 - January 2015"
+    description: "R&D, focusing on Mobile and Web solutions."
+  - image: "/img/career/cti.jpg"
+    date: "February 2012 - December 2014"
+    description: "Started to study Computer Programming at CTI - Unesp/Bauru."    
 
 # Background image to be tiled on all pages
 background:
