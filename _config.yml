@@ -56,6 +56,9 @@ social:
     url: "https://github.com/bmcorsino"
 
 
+# First image of the Career timeline
+career-img: "/img/career/computer.png"
+
 # Career variables
 
 events:
