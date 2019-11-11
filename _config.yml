@@ -26,6 +26,8 @@ menu:
   - title: 'Categories'
     url: '/categories'
     type: 'categories'
+  - title: 'About'
+    url: '/about'
   #- title: 'Favorites'
    # url: '#'
     #submenu:
