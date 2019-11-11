@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body id="page">
+<body id="page" data-spy="scroll" data-target=".navbar-fixed-top">
 
 {% include browser-upgrade.html %}
 {% include header.html %}
@@ -50,7 +50,7 @@
 
                   <li class="{{ class }}">
                       <div class="timeline-image">
-                          <img class="img-circle img-responsive" src="{{ site.baseurl }}/{% if post.image %}{{ post.image }}{% else %}{{site.career-img}}{% endif %}" alt="">
+                          <img class="img-circle img-responsive" src="{{ site.baseurl }}/{% if timeline.image %}{{ timeline.image }}{% else %}{{site.career-img}}{% endif %}" alt="">
                       </div>
                       <div class="timeline-panel">
                           <div class="timeline-heading">
