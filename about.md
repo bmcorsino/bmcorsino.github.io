@@ -1,5 +1,6 @@
 ---
 layout: page
+section-type: awards
 title: About Me
 share: true
 ---
