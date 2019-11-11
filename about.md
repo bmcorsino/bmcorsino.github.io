@@ -1,5 +1,6 @@
 ---
 layout: page
+section-type: timeline
 title: About Me
 share: true
 ---
