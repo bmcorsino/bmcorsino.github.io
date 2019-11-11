@@ -1,6 +1,5 @@
 ---
 layout: page
-section-type: timeline
 title: About Me
 share: true
 ---
@@ -11,3 +10,5 @@ share: true
 <div class="author-container">
 <img class="author-img" src="{{site.url}}/{{site.owner.avatar}}" alt="{{site.owner.name}}" /> 
 </div>
+
+
