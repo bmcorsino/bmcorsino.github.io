@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: https://bmcorsino.github.io 
+url: http://corsino.pt 
 
 
 # draw your top menu here
@@ -21,10 +21,10 @@ url: https://bmcorsino.github.io
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Tags'
-    url: '/tags'
   - title: 'Categories'
     url: '/categories'
+  - title: 'Tags'
+    url: '/tags'
     type: 'categories'
   - title: 'About'
     url: '/about'
