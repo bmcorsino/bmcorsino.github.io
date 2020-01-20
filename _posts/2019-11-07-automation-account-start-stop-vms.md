@@ -6,9 +6,8 @@ modified: 2019-11-07
 tags: [PowerShell, Automation, Virtual Machines]
 categories: [PowerShell, Automation, Virtual Machines]
 image:
-    feature: ./images/abstracy-2.jpg
+    feature: /images/abstracy-2.jpg
     credit: dargadgetz
-
 ---
 This script will allow you to use an Automation Account to Start and Stop all Virtual Machines selected at the same time.
 
