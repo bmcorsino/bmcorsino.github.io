@@ -42,7 +42,7 @@ owner:
   name:           Corsino
   site:           corsino.pt
   avatar:         images/avatar.jpg
-  bio:            "Azure Active Directory Lover! </b>testing "
+  bio:            "Azure Active Directory Lover!"
   email:          you@email.com
   # Twitter nick for use in Twitter cards and follow button.
   #twitter: brunomcorsino # if no twitter in this config, the twitter follow button will be removed
