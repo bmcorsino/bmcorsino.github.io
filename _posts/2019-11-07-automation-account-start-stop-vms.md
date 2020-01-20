@@ -6,7 +6,7 @@ modified: 2019-11-07
 tags: [PowerShell, Automation, Virtual Machines]
 categories: [PowerShell, Automation, Virtual Machines]
 image:
-    feature: abstracy-2.jpg
+    feature: ./images/abstracy-2.jpg
     credit: dargadgetz
 
 ---
