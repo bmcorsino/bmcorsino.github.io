@@ -5,7 +5,8 @@ description: "How to Get Virtual MAchines across subscriptions"
 modified: 2019-11-08
 tags: [PowerShell, Subscriptions, Virtual Machines]
 categories: [PowerShell, Virtual Machines]
-
+image:
+    feature: categories/vm.jpg
 ---
 
 This Script will search all Virtual Machines across your subscriptions that has the state `Enable`.

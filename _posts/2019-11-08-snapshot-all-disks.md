@@ -5,6 +5,9 @@ description: "How to Snapshoot all Disks for a single Virtual Machine"
 modified: 2019-11-08
 tags: [PowerShell, Virtual Machines, Snapshots]
 categories: [PowerShell, Virtual Machines]
+image:
+    feature: categories/vm.jpg
+
 
 ---
 
