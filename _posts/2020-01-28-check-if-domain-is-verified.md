@@ -82,3 +82,7 @@ echo ""
 echo "        Test-Domain microsoft.com"
 echo ""
 ```
+
+####Script Info
+**Creater**: ``Stephan Bisser``
+**Download**: [Technet Gallery](https://gallery.technet.microsoft.com/Check-domain-registration-2fb6d097)
