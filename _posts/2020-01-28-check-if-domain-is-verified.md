@@ -10,7 +10,7 @@ image:
 ---
 
 
-This PowerShell will help you to check if a domain is verified on a Azure AD / Office 365 Tenant
+This PowerShell will help you to check if a domain is verified on an Azure AD / Office 365 Tenant
 
 
 **Possible Results:**                                   
