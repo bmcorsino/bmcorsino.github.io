@@ -1,0 +1,16 @@
+---
+title: Start/Stop Virtual Machines at the same time
+excerpt: "Automation Account to Start/Stop Virtual Machines at the same time"
+#classes: wide
+toc: true
+toc_sticky: false
+categories: 
+    - PowerShell 
+    - Automation 
+    - Virtual Machines
+tags: 
+    - PowerShell
+    - Automation
+    - Virtual Machines
+
+---
