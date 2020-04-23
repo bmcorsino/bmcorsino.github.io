@@ -10,8 +10,8 @@ subtitle                 : "Trying to learn something..." # site tagline that ap
 name                     : "Bruno Corsino"
 description              : "Azure Administrator"
 url                      : "http://corsino.pt" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/test" # the subpath of your site, e.g. "/blog"
-repository               : "bmcorsino/test" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "bmcorsino/bmcorsino.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
