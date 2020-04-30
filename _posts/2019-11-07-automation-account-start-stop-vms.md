@@ -21,13 +21,13 @@ This script will allow you to use an Automation Account to Start and Stop all Vi
 
 To be able to create an Automation Account with a `Run As Account` you need the Owner RBAC role under the subscription.
 
-![img](/images/2019/11/subscription.png)
+![img](/assets/images/2019/11/subscription.png)
 
 ## Create an Automation Account
 
 If you don't already have an automation account, you need to create one.
 
-![img](/images/2019/11/automation.png) 
+![img](/assets/images/2019/11/automation.png) 
 
 
 ## Add Tags to Virtual Machine
@@ -35,7 +35,7 @@ If you don't already have an automation account, you need to create one.
 You need to configure 3 Tags in Virtual Machines :
 
 
-![img](/images/2019/11/start-stop-tags.png) 
+![img](/assets/images/2019/11/start-stop-tags.png) 
 
 
  **Tip**
@@ -122,7 +122,7 @@ if ((get-date).DayOfWeek.value__ -in 1..5){
 
 The last step is to create a Schedule for your Automation Account.
 
-![img](/images/2019/11/schedule.png)
+![img](/assets/images/2019/11/schedule.png)
 
 
 Don't forget to attach it to your Automation Account.
