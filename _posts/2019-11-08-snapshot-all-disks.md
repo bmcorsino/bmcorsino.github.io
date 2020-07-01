@@ -5,7 +5,7 @@ classes: wide
 categories: 
     - PowerShell 
     - Virtual Machines
-ags: 
+tags: 
     - PowerShell 
     - Virtual Machines 
     - Snapshots
