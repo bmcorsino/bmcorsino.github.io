@@ -38,20 +38,16 @@ author:
   bio              : "Azure Administrator"
   location         : "Lisbon, PT"
   linkedin         : "brunocorsino"
-  twitter          : "brunomcorsino"
   github           : "bmcorsino"
   uri              : "http://corsino.pt"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/brunomcorsino"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bmcorsino"
-    - label: "GitHub"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/brunocorsino"
 
