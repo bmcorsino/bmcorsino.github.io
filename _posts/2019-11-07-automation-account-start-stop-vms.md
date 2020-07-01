@@ -25,7 +25,7 @@ To be able to create an Automation Account with a `Run As Account` you need the 
 
 ## Create an Automation Account
 
-If you don't already have an automation account, you need to create one.
+If you don't have an automation account, you need to create one.
 
 ![img](/assets/images/2019/11/automation.png) 
 

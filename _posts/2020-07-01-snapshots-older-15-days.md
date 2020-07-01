@@ -19,7 +19,7 @@ This PowerShell Script will remove all Snapshots older than 15 days across all y
 
 ## Create an Automation Account
 
-If you don't already have an automation account, you need to create one.
+If you don't have an automation account, you need to create one.
 
 ![img](/assets/images/2019/11/automation.png) 
 
