@@ -28,7 +28,7 @@ If you don't already have an automation account, you need to create one.
 Create a Runbook with the PowerShell script below.
 
 **Note:**
- To change the days tokeep the snapshots, just change the value 15 for everyday you want
+ To change the days to keep the snapshots, just modify the value 15
  UtcNow.AddDays(**-15**))}
 {: .notice--info}
 
