@@ -4,6 +4,7 @@ excerpt: "How to Snapshoot all Disks for a single Virtual Machine"
 classes: wide
 categories: 
     - PowerShell 
+    - Snapshots
     - Virtual Machines
 tags: 
     - PowerShell 
