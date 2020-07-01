@@ -12,10 +12,11 @@ tags:
     - Microsoft Teams
     - Bot
     - Automation
+    - Azure Backups
 
 ---
 
-## Introdução
+## Introduction
 
 ## Pre-Requisitos
 

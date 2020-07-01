@@ -30,6 +30,12 @@ If you don't have an automation account, you need to create one.
 ![img](/assets/images/2019/11/automation.png) 
 
 
+## Assign RBAC role to Automation Account
+
+To perform the tasks, the Automation account needs the `Contributor` or `Virtual Machine Contributor` RBAC role.
+
+
+
 ## Add Tags to Virtual Machine
 
 You need to configure 3 Tags in Virtual Machines :

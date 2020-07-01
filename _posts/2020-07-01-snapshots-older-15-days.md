@@ -16,12 +16,24 @@ tags:
 
 This PowerShell Script will remove all Snapshots older than 15 days across all your subscriptions
 
+## Subscription Owner Role
+
+To be able to create an Automation Account with a `Run As Account` you need the Owner RBAC role under the subscription.
+
+![img](/assets/images/2019/11/subscription.png)
+
 
 ## Create an Automation Account
 
 If you don't have an automation account, you need to create one.
 
 ![img](/assets/images/2019/11/automation.png) 
+
+
+## Assign RBAC role to Automation Account
+
+To perform the tasks, the Automation account needs the `Contributor` RBAC role.
+
 
 
 ## PowerShell Script
